@@ -20,7 +20,7 @@ Predict next-hour Bitcoin direction with a lightweight logistic regression pipel
    ```
 3. Launch Jupyter and open the notebook:
    ```bash
-  uv run jupyter notebook notebooks/bitcoin_price_direction_logistic_regression.ipynb
+   uv run jupyter notebook notebooks/bitcoin_price_direction_logistic_regression.ipynb
    ```
 
 ## Feature Set
