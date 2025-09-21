@@ -1,4 +1,4 @@
-# simple-logistic-regression
+# Bitcoin Price Direction Logistic Regression
 
 Predict next-hour Bitcoin direction with a lightweight logistic regression pipeline fed by five technical factors (Momentum, SMA distance, Volatility, RSI, Volume). Data is sourced directly from Binance and explored inside a companion Jupyter notebook.
 
