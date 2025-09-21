@@ -39,7 +39,15 @@ flowchart LR
      --start 2023-01-01T00:00:00 --end 2023-06-01T00:00:00
    ```
    > 提示：在無法連線的環境下，專案已附上一份離線範例 `data/btcusdt_1h.csv` 供 Notebook 使用。
-3. 啟動 Jupyter Lab 或 Notebook，開啟 `notebooks/bitcoin_logistic_regression.ipynb`，依序執行每個區塊。
+3. 若想直接在終端機快速體驗整個流程，可執行：
+   ```bash
+   python run_pipeline.py
+   ```
+   指令會：
+   - 檢查 `data/btcusdt_1h.csv` 是否存在，若沒有且可連線則呼叫 `fetch_data.py` 下載資料。
+   - 計算 Momentum、SMA、Volatility、RSI 與 Volume Z-score 特徵並訓練 Logistic Regression。
+   - 顯示測試集分類指標並將回測結果曲線輸出至 `artifacts/backtest.png`。
+4. 啟動 Jupyter Lab 或 Notebook，開啟 `notebooks/bitcoin_logistic_regression.ipynb`，依序執行每個區塊。
 
 ## Notebook 內容摘要
 
