@@ -1,0 +1,17 @@
+[project]
+name = "simple-logistic-regression"
+version = "0.1.0"
+description = "Logistic regression Bitcoin direction predictor"
+authors = [{ name = "Codex" }]
+requires-python = ">=3.10"
+dependencies = [
+    "pandas",
+    "requests",
+    "scikit-learn",
+    "matplotlib",
+    "seaborn",
+    "numpy",
+]
+
+[project.optional-dependencies]
+notebook = ["jupyter"]

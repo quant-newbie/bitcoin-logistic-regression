@@ -1,0 +1,28 @@
+# Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments and dependency managers
+.venv/
+.venv*/
+.uv_cache/
+.env/
+venv/
+
+# OS metadata
+.DS_Store
+
+# Jupyter artifacts
+.ipynb_checkpoints/
+.jupyter/
+.jupyter_config/
+.jupyter_data/
+.jupyter_runtime/
+
+# Notebook auto-saves
+*.ipynb_autosave
+
+# Logs and temporary files
+*.log
+*.tmp
